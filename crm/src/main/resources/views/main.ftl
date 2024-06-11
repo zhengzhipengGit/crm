@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>CRM-智能办公系统</title>
+    <title>宸憙客户管理CRM</title>
     <#include "common.ftl">
 </head>
 <body class="layui-layout-body layuimini-all">
@@ -11,7 +11,7 @@
         <div class="layui-logo">
             <a href="">
                 <img src="images/logo.png" alt="logo">
-                <h1>CRM-智能办公</h1>
+                <h1>宸憙-CRM</h1>
             </a>
         </div>
         <a>
@@ -164,11 +164,11 @@
                             <a href="javascript:;" class="layui-menu-tips" data-type="tabAdd" data-tab-mpi="m-p-i-10" data-tab="dataDic/index" target="_self"><i class="fa fa-tachometer"></i><span class="layui-left-nav"> 字典管理</span></a>
                         </dd>
                     </#if>
-                    <#if permissions?seq_contains("5050")>
-                        <dd class="">
-                            <a href="javascript:;" class="layui-menu-tips" data-type="tabAdd" data-tab-mpi="m-p-i-14" data-tab="druid/index.html" target="_self"><i class="fa fa-tachometer"></i><span class="layui-left-nav"> 系统监控</span></a>
-                        </dd>
-                    </#if>
+<#--                    <#if permissions?seq_contains("5050")>-->
+<#--                        <dd class="">-->
+<#--                            <a href="javascript:;" class="layui-menu-tips" data-type="tabAdd" data-tab-mpi="m-p-i-14" data-tab="druid/index.html" target="_self"><i class="fa fa-tachometer"></i><span class="layui-left-nav"> 系统监控</span></a>-->
+<#--                        </dd>-->
+<#--                    </#if>-->
 
                         </dl>
                     </li>

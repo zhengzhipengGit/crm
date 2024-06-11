@@ -1,6 +1,6 @@
 ## 端口号  上下文路径
 server:
-  port: 8080
+  port: 18081
   servlet:
     context-path: /
 
@@ -21,9 +21,9 @@ spring:
   # 数据库配置(务必根据实际情况修改配置)
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/crm?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://localhost:13306/crm?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
-    password: 123456
+    password: 1qaz@WSX
     # 设置连接池为Druid
     type: com.alibaba.druid.pool.DruidDataSource
     # 数据源的其他配置
