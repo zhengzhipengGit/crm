@@ -6,9 +6,9 @@
 </head>
 <body class="childrenBody">
 
-<form class="layui-form" >
+<form class="layui-form">
     <input name="cusId" type="hidden" value="${(cusId)!}"/>
-    <table id="customerList" class="layui-table"  lay-filter="customers"></table>
+    <table id="customerList" class="layui-table" lay-filter="customers"></table>
     <script type="text/html" id="toolbarDemo">
 
         <div class="layui-btn-container">

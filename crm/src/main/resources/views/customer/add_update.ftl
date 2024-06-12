@@ -12,14 +12,16 @@
             <label class="layui-form-label">客户名称</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="name" id="name"  lay-verify="required" value="${(customer.name)!}" placeholder="请输入客户名">
+                       name="name" id="name" lay-verify="required" value="${(customer.name)!}"
+                       placeholder="请输入客户名">
             </div>
         </div>
         <div class="layui-col-xs6">
             <label class="layui-form-label">法人</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="legalPerson" id="legalPerson" lay-verify="required" value="${(customer.legalPerson)!}" placeholder="请输入法人">
+                       name="legalPerson" id="legalPerson" lay-verify="required" value="${(customer.legalPerson)!}"
+                       placeholder="请输入法人">
             </div>
         </div>
     </div>
@@ -29,7 +31,7 @@
             <label class="layui-form-label">区域</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="area"    value="${(customer.area)!}" placeholder="请输入区域">
+                       name="area" value="${(customer.area)!}" placeholder="请输入区域">
             </div>
         </div>
         <div class="layui-col-xs6">
@@ -45,13 +47,22 @@
         <div class="layui-col-xs6">
             <label class="layui-form-label">客户级别</label>
             <div class="layui-input-block">
-                <select name="level"  id="level">
-                    <option value="" >请选择</option>
-                    <option value="普通客户" <#if customer?? & customer.level=="普通客户">selected="selected"</#if>>普通客户</option>
-                    <option value="重点开发客户" <#if customer?? & customer.level=="重点开发客户">selected="selected"</#if>>重点开发客户</option>
-                    <option value="大客户" <#if customer?? & customer.level=="大客户">selected="selected"</#if>>大客户</option>
-                    <option value="合作伙伴" <#if customer?? & customer.level=="合作伙伴">selected="selected"</#if>>合作伙伴</option>
-                    <option value="战略合作伙伴" <#if customer?? & customer.level=="战略合作伙伴">selected="selected"</#if>>战略合作伙伴</option>
+                <select name="level" id="level">
+                    <option value="">请选择</option>
+                    <option value="普通客户" <#if customer?? & customer.level=="普通客户">selected="selected"</#if>>
+                        普通客户
+                    </option>
+                    <option value="重点开发客户"
+                            <#if customer?? & customer.level=="重点开发客户">selected="selected"</#if>>重点开发客户
+                    </option>
+                    <option value="大客户" <#if customer?? & customer.level=="大客户">selected="selected"</#if>>大客户
+                    </option>
+                    <option value="合作伙伴" <#if customer?? & customer.level=="合作伙伴">selected="selected"</#if>>
+                        合作伙伴
+                    </option>
+                    <option value="战略合作伙伴"
+                            <#if customer?? & customer.level=="战略合作伙伴">selected="selected"</#if>>战略合作伙伴
+                    </option>
                 </select>
             </div>
         </div>
@@ -59,7 +70,7 @@
             <label class="layui-form-label">信用度</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="reputation" value="${(customer.reputation)!}"  placeholder="请输入客户信用级别">
+                       name="reputation" value="${(customer.reputation)!}" placeholder="请输入客户信用级别">
             </div>
         </div>
     </div>
@@ -70,14 +81,14 @@
             <label class="layui-form-label">邮编</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="postCode" value="${(customer.postCode)!}"  placeholder="请输入客户邮编">
+                       name="postCode" value="${(customer.postCode)!}" placeholder="请输入客户邮编">
             </div>
         </div>
         <div class="layui-col-xs6">
             <label class="layui-form-label">联系电话</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="phone" lay-verify="required" value="${(customer.phone)!}"  placeholder="请输入客户联系电话">
+                       name="phone" lay-verify="required" value="${(customer.phone)!}" placeholder="请输入客户联系电话">
             </div>
         </div>
     </div>
@@ -87,14 +98,14 @@
             <label class="layui-form-label">客户地址</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="address" value="${(customer.address)!}"  placeholder="请输入客户地址">
+                       name="address" value="${(customer.address)!}" placeholder="请输入客户地址">
             </div>
         </div>
         <div class="layui-col-xs6">
             <label class="layui-form-label">传真</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="fax" value="${(customer.fax)!}"  placeholder="请输入客户传真">
+                       name="fax" value="${(customer.fax)!}" placeholder="请输入客户传真">
             </div>
         </div>
     </div>
@@ -104,18 +115,17 @@
             <label class="layui-form-label">网站</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="webSite" value="${(customer.webSite)!}"  placeholder="请输入客户网站地址">
+                       name="webSite" value="${(customer.webSite)!}" placeholder="请输入客户网站地址">
             </div>
         </div>
         <div class="layui-col-xs6">
             <label class="layui-form-label">注册资金</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="registeredCapital" value="${(customer.registeredCapital)!}"  placeholder="请输入注册资金">
+                       name="registeredCapital" value="${(customer.registeredCapital)!}" placeholder="请输入注册资金">
             </div>
         </div>
     </div>
-
 
 
     <div class="layui-form-item layui-row">
@@ -123,14 +133,14 @@
             <label class="layui-form-label">开户行</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="bank" value="${(customer.bank)!}"  placeholder="请输入客户开户行">
+                       name="bank" value="${(customer.bank)!}" placeholder="请输入客户开户行">
             </div>
         </div>
         <div class="layui-col-xs6">
             <label class="layui-form-label">开户账号</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="accountNumber" value="${(customer.accountNumber)!}"  placeholder="请输入开户账号">
+                       name="accountNumber" value="${(customer.accountNumber)!}" placeholder="请输入开户账号">
             </div>
         </div>
     </div>
@@ -140,14 +150,14 @@
             <label class="layui-form-label">国税</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="nationalTaxNum" value="${(customer.nationalTaxNum)!}"  placeholder="请输入国税">
+                       name="nationalTaxNum" value="${(customer.nationalTaxNum)!}" placeholder="请输入国税">
             </div>
         </div>
         <div class="layui-col-xs6">
             <label class="layui-form-label">地税</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="localTaxNum" value="${(customer.localTaxNum)!}"  placeholder="请输入地税">
+                       name="localTaxNum" value="${(customer.localTaxNum)!}" placeholder="请输入地税">
             </div>
         </div>
     </div>
@@ -158,7 +168,7 @@
             <label class="layui-form-label">年营业额</label>
             <div class="layui-input-block">
                 <input type="text" class="layui-input"
-                       name="turnover" value="${(customer.turnover)!}"  placeholder="请输入客户年营业额">
+                       name="turnover" value="${(customer.turnover)!}" placeholder="请输入客户年营业额">
             </div>
         </div>
     </div>

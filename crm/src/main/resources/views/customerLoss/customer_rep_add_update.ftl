@@ -11,7 +11,8 @@
         <label class="layui-form-label">暂缓措施</label>
         <div class="layui-input-block">
             <input type="text" class="layui-input userName"
-                   lay-verify="required" name="measure" id="measure"  value="${(customerRep.measure)!}" placeholder="请输入暂缓措施">
+                   lay-verify="required" name="measure" id="measure" value="${(customerRep.measure)!}"
+                   placeholder="请输入暂缓措施">
         </div>
     </div>
 

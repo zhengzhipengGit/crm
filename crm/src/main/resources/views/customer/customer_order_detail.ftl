@@ -8,14 +8,14 @@
 <div class="layui-col-md12">
     <div class="layui-card">
         <div class="layui-card-body">
-            <form class="layui-form" >
+            <form class="layui-form">
                 <input name="id" type="hidden" value="${(order.id)!}"/>
                 <div class="layui-form-item layui-row">
                     <div class="layui-col-xs6">
                         <label class="layui-form-label">订单编号</label>
                         <div class="layui-input-block">
                             <input type="text" class="layui-input"
-                                   name="orderNo" id="orderNo"  value="${(order.order_no)!}" readonly="readonly">
+                                   name="orderNo" id="orderNo" value="${(order.order_no)!}" readonly="readonly">
                         </div>
                     </div>
                     <div class="layui-col-xs6">
@@ -32,14 +32,14 @@
                         <label class="layui-form-label">物流地址</label>
                         <div class="layui-input-block">
                             <input type="text" class="layui-input"
-                                   name="address"  value="${(order.address)!}" readonly="readonly">
+                                   name="address" value="${(order.address)!}" readonly="readonly">
                         </div>
                     </div>
                     <div class="layui-col-xs6">
                         <label class="layui-form-label">支付状态</label>
                         <div class="layui-input-block">
                             <input type="text" class="layui-input"
-                                    name="status" value="${(order.status)!}"  readonly="readonly">
+                                   name="status" value="${(order.status)!}" readonly="readonly">
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
 </div>
 
 <div class="layui-col-md12">
-    <table id="orderDetailList" class="layui-table"  lay-filter="orderDetails"></table>
+    <table id="orderDetailList" class="layui-table" lay-filter="orderDetails"></table>
 </div>
 
 

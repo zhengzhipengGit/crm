@@ -10,11 +10,11 @@
         <div class="layui-col-xs6">
             <label class="layui-form-label">服务类型</label>
             <div class="layui-input-block">
-                <select name="serveType"  id="serveType">
-                    <option value="" >请选择</option>
+                <select name="serveType" id="serveType">
+                    <option value="">请选择</option>
                     <option value="6">咨询</option>
-                    <option value="7" >建议</option>
-                    <option value="8" >投诉</option>
+                    <option value="7">建议</option>
+                    <option value="8">投诉</option>
                 </select>
             </div>
         </div>

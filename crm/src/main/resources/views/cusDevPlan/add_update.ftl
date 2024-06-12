@@ -11,7 +11,8 @@
         <label class="layui-form-label">计划项内容</label>
         <div class="layui-input-block">
             <input type="text" class="layui-input userName"
-                   lay-verify="required" name="planItem" id="planItem"  value="${(cusDevPlan.planItem)!}" placeholder="请输入计划项内容">
+                   lay-verify="required" name="planItem" id="planItem" value="${(cusDevPlan.planItem)!}"
+                   placeholder="请输入计划项内容">
         </div>
     </div>
     <div class="layui-form-item layui-row layui-col-xs12">
@@ -19,10 +20,11 @@
         <div class="layui-input-block">
             <#if (cusDevPlan.planDate)??>
                 <input type="text" class="layui-input userName"
-                   lay-verify="required" name="planDate" id="planDate" value="${(cusDevPlan.planDate)?string("yyyy-MM-dd")}" placeholder="请输入计划项时间">
-                <#else>
+                       lay-verify="required" name="planDate" id="planDate"
+                       value="${(cusDevPlan.planDate)?string("yyyy-MM-dd")}" placeholder="请输入计划项时间">
+            <#else>
                 <input type="text" class="layui-input userName"
-                   lay-verify="required" name="planDate" id="planDate"  placeholder="请输入计划项时间">
+                       lay-verify="required" name="planDate" id="planDate" placeholder="请输入计划项时间">
             </#if>
 
         </div>
@@ -49,7 +51,7 @@
 </form>
 <script type="text/javascript" src="${ctx}/js/cusDevPlan/add.update.js"></script>
 <script>
-    layui.use('laydate', function(){
+    layui.use('laydate', function () {
         var laydate = layui.laydate;
 
         //执行一个laydate实例

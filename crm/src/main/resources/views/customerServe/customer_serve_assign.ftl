@@ -6,21 +6,21 @@
 </head>
 <body class="childrenBody">
 
-<form class="layui-form" >
+<form class="layui-form">
     <blockquote class="layui-elem-quote quoteBox">
         <form class="layui-form">
             <div class="layui-inline">
                 <div class="layui-input-inline">
                     <input type="text" name="customer"
                            class="layui-input
-					searchVal" placeholder="客户" />
+					searchVal" placeholder="客户"/>
                 </div>
                 <div class="layui-input-inline">
-                    <select name="type"  id="type">
-                        <option value="" >请选择</option>
+                    <select name="type" id="type">
+                        <option value="">请选择</option>
                         <option value="6">咨询</option>
-                        <option value="7" >建议</option>
-                        <option value="8" >投诉</option>
+                        <option value="7">建议</option>
+                        <option value="8">投诉</option>
                     </select>
                 </div>
 
@@ -29,7 +29,7 @@
             </div>
         </form>
     </blockquote>
-    <table id="customerServeList" class="layui-table"  lay-filter="customerServes"></table>
+    <table id="customerServeList" class="layui-table" lay-filter="customerServes"></table>
 
 
     <script type="text/html" id="toolbarDemo">
@@ -37,7 +37,7 @@
     </script>
 
     <script id="customerServeListBar" type="text/html">
-       <a href="javascript:;" class="layui-btn layui-btn-normal layui-btn-xs"  lay-event="assign">分配</a>
+        <a href="javascript:;" class="layui-btn layui-btn-normal layui-btn-xs" lay-event="assign">分配</a>
     </script>
 
 </form>
