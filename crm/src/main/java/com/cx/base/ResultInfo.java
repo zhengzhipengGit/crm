@@ -1,8 +1,8 @@
-package top.upstudy.base;
+package com.cx.base;
 
 public class ResultInfo {
-    private Integer code=200;
-    private String msg="success";
+    private Integer code = 200;
+    private String msg = "success";
 
     private Object result;
 

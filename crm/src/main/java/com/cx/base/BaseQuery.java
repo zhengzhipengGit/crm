@@ -1,9 +1,9 @@
-package top.upstudy.base;
+package com.cx.base;
 
 
 public class BaseQuery {
-    private Integer page=1;
-    private Integer limit=10;
+    private Integer page = 1;
+    private Integer limit = 10;
 
     public Integer getPage() {
         return page;
