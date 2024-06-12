@@ -1,19 +1,14 @@
-package top.upstudy.crm;
+package com.cx.crm;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import top.upstudy.crm.mapper.CusDevPlanMapper;
-import top.upstudy.crm.mapper.SaleChanceMapper;
-import top.upstudy.crm.mapper.UserMapper;
-import top.upstudy.crm.pojo.SaleChance;
-import top.upstudy.crm.pojo.User;
-import top.upstudy.crm.query.SaleChanceQuery;
-import top.upstudy.crm.service.UserService;
+import com.cx.crm.mapper.CusDevPlanMapper;
+import com.cx.crm.mapper.SaleChanceMapper;
+import com.cx.crm.mapper.UserMapper;
+import com.cx.crm.service.UserService;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 @SpringBootTest
 class CrmApplicationTests {
@@ -29,6 +24,7 @@ class CrmApplicationTests {
 
     @Autowired
     UserService userService;
+
     @Test
     void contextLoads() {
         //SaleChanceQuery saleChanceQuery = new SaleChanceQuery();
