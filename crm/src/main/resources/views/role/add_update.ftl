@@ -10,14 +10,15 @@
         <label class="layui-form-label">角色名</label>
         <div class="layui-input-block">
             <input type="text" class="layui-input userName"
-                   lay-verify="required" name="roleName" id="roleName"  value="${(role.roleName)!}" placeholder="角色名">
+                   lay-verify="required" name="roleName" id="roleName" value="${(role.roleName)!}" placeholder="角色名">
         </div>
     </div>
     <div class="layui-form-item layui-row layui-col-xs12">
         <label class="layui-form-label">角色备注</label>
         <div class="layui-input-block">
             <input type="text" class="layui-input userName"
-                   lay-verify="required" name="roleRemark" id="roleRemark" value="${(role.roleRemark)!}" placeholder="请输入角色备注">
+                   lay-verify="required" name="roleRemark" id="roleRemark" value="${(role.roleRemark)!}"
+                   placeholder="请输入角色备注">
         </div>
     </div>
 

@@ -324,6 +324,7 @@
     transition: transform ease-in 99999999999s;
 */
     }
+
     .object_astronaut {
         animation: rotate-astronaut 200s infinite linear both alternate;
     }

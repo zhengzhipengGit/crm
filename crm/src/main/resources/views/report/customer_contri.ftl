@@ -9,14 +9,14 @@
 </head>
 <body class="childrenBody">
 
-<form class="layui-form" >
+<form class="layui-form">
     <blockquote class="layui-elem-quote quoteBox">
         <form class="layui-form">
             <div class="layui-inline">
                 <div class="layui-input-inline">
                     <input type="text" name="customerName"
                            class="layui-input
-					searchVal" placeholder="客户名" />
+					searchVal" placeholder="客户名"/>
                 </div>
                 <div class="layui-input-inline">
                     <select name="type" id="type">
@@ -30,14 +30,14 @@
                 <div class="layui-input-inline">
                     <input type="text" name="time" id="time"
                            class="layui-input
-					searchVal" placeholder="下单时间"  readonly="readonly" />
+					searchVal" placeholder="下单时间" readonly="readonly"/>
                 </div>
                 <a class="layui-btn search_btn" data-type="reload"><i
                             class="layui-icon">&#xe615;</i> 搜索</a>
             </div>
         </form>
     </blockquote>
-    <table id="contriList" class="layui-table"  lay-filter="contris"></table>
+    <table id="contriList" class="layui-table" lay-filter="contris"></table>
 
 
 </form>
