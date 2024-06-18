@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>宸憙客户管理CRM</title>
+    <title>CRM客户管理系统</title>
     <#include "common.ftl">
 </head>
 <body class="layui-layout-body layuimini-all">
@@ -11,7 +11,7 @@
         <div class="layui-logo">
             <a href="">
                 <img src="images/logo.png" alt="logo">
-                <h1>宸憙-CRM</h1>
+                <h1>CRM客户管理</h1>
             </a>
         </div>
         <a>

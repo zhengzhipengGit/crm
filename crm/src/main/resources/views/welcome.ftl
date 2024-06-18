@@ -11,7 +11,7 @@
     <div class="layui-row layui-col-space10">
         <div class="layui-col-md12">
             <blockquote class="layui-elem-quote main_btn">
-                <h2>welcome 宸憙CRM客户关系管理系统</h2>
+                <h2>welcome CRM客户管理系统</h2>
                 <#--                <p>此CRM客户关系管理系统采用： </p>-->
                 <#--                <p>0.springboot</p>-->
                 <#--                <p>1.前端模板 layui  <a class="layui-btn layui-btn-xs layui-btn-danger" target="_blank" href="http://www.layui.com/doc">layui文档</a></p>-->
